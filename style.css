@@ -1,0 +1,370 @@
+
+body{
+    background-color: rgb(75, 3, 192);
+    
+}
+
+
+
+#NAVBAR {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    
+    height: 65px;
+    width: 1503px;
+    background-color: black;
+
+    position: fixed;
+    z-index: 2;
+}
+
+#amazonlogo {
+    height: 40px;
+    width: 113px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 5px solid #f9dc03;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#bangladesh {
+    color: white;
+    border: 3px solid black;
+}
+#bangladesh:hover {
+    border-color: #f9dc03;
+}
+
+
+#BD01{
+    color: rgb(201, 200, 200);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#BD02{
+    font-weight: bolder;
+    color: white;
+}
+
+#search {
+    height: 35px;
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #f9dc03;
+    
+    display: flex;
+    justify-content: space-between;
+}
+#search:hover{
+    border-color: #f9dc03;
+}
+
+#srchbar {
+    height: 34.5px;
+    width: 600px;
+    font-size: 15px;
+    border: none;
+}
+
+#all {
+    height: 35px;
+    width: 50px;
+    background-color: rgb(248, 239, 239);
+
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+#but-01 {
+    height: 34px;
+    width: 50px;
+    border: none;
+    background-color: #f9dc03;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#flagoption {
+    height: 30px;
+    width: 60px;
+    border: 3px solid black;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+}
+#flagoption:hover {
+   border-color: #f9dc03;
+}
+
+#account {
+    border: 3px solid black;
+}
+
+#account:hover {
+    border-color: #f9dc03;
+}
+
+
+#order {
+    border: 3px solid black;
+}
+#order:hover {
+    border-color: #f9dc03;
+}
+
+
+#cart {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 3px solid black;
+}
+
+#cart:hover {
+   border-color: #f9dc03;
+}
+
+#CCC {
+    
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #f9dc03;
+}
+
+#CC2 {
+    margin-top: 20px;
+    color: white;
+}
+
+
+#SpaceDive{
+    height: 65px;
+    width: 100%;
+}
+
+#NAV02 {
+    display: flex;
+    align-items: center;
+     
+    height: 40px;
+    width: 100%;
+   
+    background-color: rgb(20, 20, 47);
+}
+
+.BALL {
+    color: white;
+    margin-left: 15px;
+    height: 20px;
+    border: 2px solid rgb(20, 20, 47);
+}
+.BALL:hover{
+    border: 2px solid wheat;
+}
+
+#firefox{
+    height: 20px;
+    border: 2px solid rgb(20, 20, 47);
+}
+#firefox:hover{
+    height: 20px;
+    border: 2px solid wheat;
+}
+
+
+
+#productmain {
+    height: 1000px;
+    width: 1501px;
+   
+    position: absolute;
+    top: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+
+.product {
+    margin-top: 20px;
+    
+    border-radius: 7px;
+
+    
+
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+#productphoto-01 {
+    height: 340px;
+    width: 330px;
+    background-image: url(computer\ photo.jpg);
+    background-size: cover;
+    margin-left: 8.5px;
+   
+}
+#productphoto-02 {
+    height: 340px;
+    width: 330px;
+    background-image: url(Spin\ chair\ photo.jpg); background-size: cover;
+    margin-left: 8.5px;
+}
+#productphoto-03 {
+    height: 340px;
+    width: 330px;
+    background-image: url(Laptop\ photo.jpg); background-size: cover;
+    margin-left: 8.5px;
+}
+#productphoto-04 {
+    height: 340px;
+    width: 330px;
+    background-image: url(Brush\ photo.jpg); background-size: cover;
+    margin-left: 8.5px;
+}
+
+.productname {
+    margin-left: 8.5px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.ptoductoffer {
+    margin-left: 8.5px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(4, 113, 113);
+}
+
+
+#sign-up {
+    margin-top: 15px;
+    height: 160px;
+    width: 1500px;
+    background-color: rgb(219, 219, 219);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+   
+}
+
+
+
+
+#see {
+    font-weight: bolder;
+}
+
+#but-02 {
+    background-color: #f9d003;
+    cursor: pointer;
+    width: 237px;
+    font-weight: bolder;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+#new {
+    font-weight: bolder;
+}
+#none {
+    color: rgb(0, 146, 146);
+    text-decoration: none;
+}
+
+
+#back {
+    height: 30px;
+    width: 1500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(41, 41, 61);
+    text-decoration: none;
+}
+
+#information {
+    height: 400px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 63, 92);
+}
+
+h4 {
+    color: white;
+}
+
+pre {
+    color: white;
+}
+
+
+#last {
+    height: 100px;
+    width: 1500px; 
+    background-color: rgb(34, 29, 29);
+    display: flex;
+   
+    align-items: center;
+}
+
+#lastam {
+    width: 70px;
+    font-size: 20px;
+    margin-left: 450px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 5px solid #f9d003;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.language {
+    margin-left: 10px;
+    height: 35px;
+    width: 130pxpx;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(43, 63, 92);
+    border: 2px solid white;
+    border-radius: 3px;
+
+}
+
+#thirdparty {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 400px;
+    margin-left: 120px;
+}
+
+#footer {
+    height: 80px;
+    width: 1500px;
+    
+    text-align: center;
+    color: white;
+    background-color: rgb(34, 29, 29);
+}
+
+#kisuna {
+    margin-top: 10px;
+}
